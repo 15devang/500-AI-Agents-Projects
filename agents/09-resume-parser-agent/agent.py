@@ -137,7 +137,7 @@ def main():
     parser.add_argument("--resume", help="Path to resume file (.txt or .pdf)")
     parser.add_argument("--job-desc", help="Job description to match against")
     args = parser.parse_args()
-
+#    i made some changes here 
     if args.resume:
         print(f"\n📄 Parsing resume: {args.resume}")
         text = read_resume_text(args.resume)
